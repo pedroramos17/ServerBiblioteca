@@ -1,0 +1,17 @@
+# services:
+#   image:
+#     - mysql
+
+#   restart: 'always'
+
+#   networks:
+#     hostnet:
+#       external: true
+#       name: host
+
+#   environment:
+#     MYSQL_DATABASE: 'library'
+#     MYSQL_ROOT_PASSWORD: ''
+
+#   ports:
+#     - '3306:3306'
